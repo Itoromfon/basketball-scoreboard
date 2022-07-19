@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <div id="card-home">0</div>
+                <div id="buttonHome">
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                </div>
+            </div>
+            <div id="guest">
+                <h3>GUEST</h3>
+                <div id="card-guest">0</div>
+                <div id="buttonGuest">
+                    <button onclick="addFour()">+1</button>
+                    <button onclick="addFive()">+2</button>
+                    <button onclick="addSix()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="resetScore">
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
